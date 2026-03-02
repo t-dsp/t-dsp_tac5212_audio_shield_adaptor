@@ -643,7 +643,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "t-dsp_desktop_pro.kicad_pro",
+    "filename": "t-dsp_tac5212_audio_shield_adaptor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1022,11 +1022,53 @@
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HIEGHT",
+          "name": "MAXIMUM_PACKAGE_HIEGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser",
+          "name": "mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
       "sort_field": "Value"
@@ -1079,6 +1121,6 @@
   ],
   "text_variables": {
     "DATE": "2026-02-23",
-    "REVISION": "v0.7"
+    "REVISION": "v0.1"
   }
 }
