@@ -30,7 +30,7 @@ The result is a compact, bus-powered audio shield with stereo line I/O, two MEMS
 | Teensy 4.1 | Socketed onto the adaptor's Teensy headers |
 | This adaptor PCB | The carrier board documented here |
 
-Power comes from the Teensy 4.1's USB-C connector — no external supply needed.
+Power comes from the Teensy 4.1's USB connector — no external supply needed.
 
 ## Features
 
