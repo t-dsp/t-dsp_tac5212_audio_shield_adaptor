@@ -44,7 +44,7 @@ Power comes from the Teensy 4.1's USB connector — no external supply needed.
 - **SD card** -- Accessible via the Teensy 4.1's built-in SD slot
 
 ### Power
-- **USB-C via Teensy 4.1** -- Bus-powered from the Teensy's USB-C port; no additional power input on this board
+- **USB via Teensy 4.1** -- Bus-powered from the Teensy's USB port; no additional power input on this board
 
 ## Board Design
 
@@ -62,7 +62,7 @@ Power comes from the Teensy 4.1's USB connector — no external supply needed.
 2. Socket the Teensy 4.1 into the adaptor board headers
 3. Plug the **TAC5212 module** into its connector on the adaptor
 4. Connect your line-level audio source and output to the TAC5212 module's jacks
-5. Connect USB-C to the Teensy 4.1 for power and optionally USB Audio
+5. Connect USB to the Teensy 4.1 for power and optionally USB Audio
 
 ### Firmware
 
