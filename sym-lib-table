@@ -30,4 +30,5 @@
   (lib (name "73725-0110BLF")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/73725-0110BLF.kicad_sym")(options "")(descr ""))
   (lib (name "SPK0641HT4H-1")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SPK0641HT4H-1.kicad_sym")(options "")(descr ""))
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "TE_Connectivity_6364372-2")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/TE_Connectivity_6364372-2.kicad_sym")(options "")(descr ""))
 )

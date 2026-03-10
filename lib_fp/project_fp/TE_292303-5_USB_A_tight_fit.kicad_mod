@@ -131,6 +131,28 @@
 		(layer "F.SilkS")
 		(uuid "381c8642-7feb-4fb7-a516-9df674ae5c43")
 	)
+	(fp_rect
+		(start -6.515 -11.58)
+		(end -5.31 -9.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "4dd649f4-0bdb-4cf9-b072-d1371a4efd68")
+	)
+	(fp_rect
+		(start 5.265 -11.535)
+		(end 6.47 -9.005)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "42680a95-6965-4e5c-85d2-705c6799ca7a")
+	)
 	(fp_line
 		(start -8 -12.28)
 		(end -6.27 -12.28)
@@ -335,7 +357,7 @@
 		(uuid "cfbb9300-d00f-47e8-acae-d65873ff396e")
 	)
 	(pad "5" thru_hole circle
-		(at -4.991 -10.28)
+		(at -5.25 -10.28)
 		(size 2.5 2.5)
 		(drill 2.3)
 		(layers "*.Cu" "*.Mask" "F.Paste")
@@ -345,17 +367,17 @@
 	(pad "5" smd rect
 		(at -3.995 -10.28 180)
 		(size 3 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "e1e703d2-5d64-4454-9159-6d2a5c6ab070")
 	)
 	(pad "5" smd rect
 		(at 3.995 -10.28 180)
 		(size 3 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "7eb7f85b-6292-4449-8463-29c75464d544")
 	)
 	(pad "5" thru_hole circle
-		(at 4.991 -10.28)
+		(at 5.25 -10.28)
 		(size 2.5 2.5)
 		(drill 2.3)
 		(layers "*.Cu" "*.Mask")
@@ -364,6 +386,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/c-292303-5-f-3d.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 3.8)
 		)
@@ -371,7 +394,18 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 90)
+		)
+	)
+	(model "${KIPRJMOD}/3d_models/TE_Connectivity_292303-1.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -180)
 		)
 	)
 )
