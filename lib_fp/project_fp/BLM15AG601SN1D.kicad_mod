@@ -1,0 +1,184 @@
+(footprint "BLM15AG601SN1D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BLM15 L=1.0 W=0.5 T=0.5")
+	(tags "Ferrite Bead")
+	(property "Reference" "REF**"
+		(at 0.22 -1.26 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "181e67ca-69e8-4b00-8b9f-6424e2e5d33a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "600Ω@100MHz"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "48dafebf-ae8b-432b-977a-0e97dfa7a88d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda6cfd8-32c6-4d1b-a044-f7b04ad1cf7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a67f98a7-67e1-47d0-923f-4e8fd6d60ee9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C76884"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "159f8979-7fd2-48a3-9e9f-4eb042cbec92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.15)
+		(end 0 0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7af1502-daf7-45d2-9969-2625d85ce517")
+	)
+	(fp_line
+		(start -1.175 -0.7)
+		(end 1.175 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4afb1ed6-7487-4695-b507-43ecd86ea365")
+	)
+	(fp_line
+		(start -1.175 0.7)
+		(end -1.175 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aaa3830a-5f4a-4bfc-b79d-68cf7aa5ae11")
+	)
+	(fp_line
+		(start 1.175 -0.7)
+		(end 1.175 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90ae0958-cb48-4af2-ad9d-694c64b5e7e3")
+	)
+	(fp_line
+		(start 1.175 0.7)
+		(end -1.175 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d346359b-171d-4821-afff-0a269fd214aa")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05fd56ec-c9ae-4730-ac8b-08097401b97c")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "595e6a8d-f0db-42a2-8daa-b24e0d217bf1")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c7813d2-e415-49a9-87f5-ef269a77f072")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03dbabf2-8220-4ec9-a62a-6cf527744767")
+	)
+	(pad "1" smd rect
+		(at -0.4 0)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e591f8c-54f3-4be2-9cda-2655e6100b94")
+	)
+	(pad "2" smd rect
+		(at 0.4 0)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81e47570-067d-4f1a-8fe9-4a1383a4f3fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/BLM15AG601SN1D.stp"
+		(offset
+			(xyz 0.2499999962 0 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

@@ -1,0 +1,387 @@
+(footprint "MSM261DGT003"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MEMSensing MSM261DGT003 PDM MEMS Microphone, LGA-6, 4.0x2.0x1.1mm, LCSC C48227730")
+	(tags "MEMS microphone PDM LGA MEMSensing")
+	(property "Reference" "REF**"
+		(at 1.98 1.13 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d69912a4-365d-4646-8f2b-a065d7f14904")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSM261DGT003"
+		(at -1.6 1 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79a6780c-9808-451b-891c-83f113ef629d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "536c4ac3-584c-4808-9b30-6118ed07ad5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Omnidirectional -26dB 64dB LGA-6(2x4) Microphones RoHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6ec031b-b142-4ea5-b630-52c3c6e4048d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C48227730"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f4f722-e87b-4bea-b661-a8430af53140")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC_MPN" "MSM261DGT003"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66240536-7844-4ffb-be35-92e1b814e71a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC_Manufacturer" "MEMS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c2ae51a-5c8c-4dbe-bb18-95ef0998df1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package / Case" "LGA-6(2x4)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56b74f6f-326c-423f-9caa-4781cb7287eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Knowles"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9497710-57c2-4f09-bb21-fa90dd8f5ca2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2dc7ce4-522f-49f7-abf9-746f4f7676c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6950ba2-9c2c-4151-8d25-2052f6a7b56a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efd646b3-bbe3-4696-92a0-f9d167fc198e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05011644-4e13-4709-b55d-5468ceaf2b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a00c737-f997-49d3-9f57-3fed04cc28b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76adc19f-62c9-471e-afa2-23be25e73fac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54953682-3182-4dd0-9f1b-ea0284f2d215")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "SPK0641HT4H-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8e4d08f-edbc-47a1-9f75-6ea88394e6e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "061387fb-5210-44fa-a0d2-5dfc4e66a3da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_PN" "SPK0641HT4H-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fe89829-69d9-45ee-8334-f774caec3b70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e1be1be-9155-4041-a045-bc168b158087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Knowles"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698fc975-0c9b-4382-a06f-58ce57b6495c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end -1.1 3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03bd22d8-f2ee-489f-afbe-2a7025c1b4f5")
+	)
+	(fp_line
+		(start 1.1 -1)
+		(end -1.1 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23c79d44-54f3-46b3-a0e5-ecee55635a24")
+	)
+	(fp_line
+		(start 1.1 -1)
+		(end 1.1 3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c913421-b75b-44a5-8e3f-d893b4881e03")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.060828 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "72651a8d-37c0-4415-bfaa-4486c5d00251")
+	)
+	(fp_rect
+		(start -1.2 -1.1)
+		(end 1.2 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dd1bcb7d-fdd6-43ad-83e9-b6eb650045ab")
+	)
+	(fp_line
+		(start 0.7 -0.9)
+		(end 1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "635552a3-3de8-4bf8-a28d-a62e402bbbe4")
+	)
+	(fp_rect
+		(start -1 -0.9)
+		(end 1 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a70df9c9-4b26-4e01-95e0-c775eed04455")
+	)
+	(pad "1" smd rect
+		(at 0.585 2.037)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "045b521b-8773-44fd-b8eb-a8962c550d3c")
+	)
+	(pad "2" smd rect
+		(at 0.585 1.097)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf0c2bb1-ac43-4f63-9dff-63906ae75678")
+	)
+	(pad "3" smd rect
+		(at 0.585 0.157)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "72f659b3-5141-4d9d-997b-38d044b6c998")
+	)
+	(pad "4" smd rect
+		(at -0.585 0.157)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd469030-9a4a-4b9e-85c1-928ef88c156e")
+	)
+	(pad "5" smd rect
+		(at -0.585 1.097)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38abb55c-3dda-43da-974c-3f7c582edb8d")
+	)
+	(pad "6" smd rect
+		(at -0.585 2.037)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cfcbc636-b652-4a4f-8a3d-adeb426f45af")
+	)
+	(embedded_fonts no)
+)

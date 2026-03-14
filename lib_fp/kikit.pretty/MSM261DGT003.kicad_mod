@@ -1,0 +1,164 @@
+(footprint "MSM261DGT003"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MEMSensing MSM261DGT003 PDM MEMS Microphone, LGA-6, 4.0x2.0x1.1mm, LCSC C48227730")
+	(tags "MEMS microphone PDM LGA MEMSensing")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "4e93951b-e5dd-4cba-9519-d8d98af76198")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSM261DGT003"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "3df35fcf-7134-4ab2-a56e-2e64d46b452d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c81d8aad-cc4d-4195-8d46-ba0624e73a4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e361b95-c702-4d0c-b9ed-a6bd4a8806b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.2 -1.2)
+		(end 2.2 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "20754dbb-b837-44b9-acd3-b19749738cb2")
+	)
+	(fp_rect
+		(start -2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6515781a-c8d2-4f0f-bd1b-84ab1f02ef88")
+	)
+	(fp_line
+		(start -2.1 -1.1)
+		(end -2.1 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5be758e-4380-49c6-9142-ba09f78e0705")
+	)
+	(fp_line
+		(start -2.1 -1.1)
+		(end 2.1 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e3c9e10-7d85-4b7e-adbd-21a921f87bd4")
+	)
+	(fp_line
+		(start -2.1 1.1)
+		(end 2.1 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01b62baa-469b-49c6-bf9f-4538ff1b36f0")
+	)
+	(fp_line
+		(start -2 -0.7)
+		(end -1.6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ece9d36-81ef-4494-a1d5-0d86a275a6c8")
+	)
+	(fp_circle
+		(center -1.7 -1.35)
+		(end -1.55 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "46ac464d-7fa5-4a65-b7d2-62e776b87221")
+	)
+	(pad "3" smd rect
+		(at 0.557 -0.47)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf6c26d0-623d-4357-9689-f6f54f9e1f4f")
+	)
+	(pad "2" smd rect
+		(at 0.557 0)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "706f37a7-b424-4238-aff3-a96efe814b44")
+	)
+	(pad "1" smd rect
+		(at 0.557 0.47)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26a675bb-3108-4400-8333-bcf74a8ef2b3")
+	)
+	(pad "4" smd rect
+		(at 1.257 -0.47)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f1eccb2-bbdb-4559-bd3b-e5142062c6c5")
+	)
+	(pad "5" smd rect
+		(at 1.257 0)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d00d1ebc-d745-4249-9003-5cd81038ebb6")
+	)
+	(pad "6" smd rect
+		(at 1.257 0.47)
+		(size 0.57 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35afc121-5c95-43a8-b959-0f5e485263e4")
+	)
+	(embedded_fonts no)
+)

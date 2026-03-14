@@ -919,7 +919,7 @@
           "group_by": false,
           "label": "LCSC_Manufacturer",
           "name": "LCSC_Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -931,7 +931,7 @@
           "group_by": false,
           "label": "Package / Case",
           "name": "Package / Case",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -943,7 +943,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -997,7 +997,7 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

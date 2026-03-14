@@ -5,6 +5,173 @@
 	(uuid "6a0ff39d-771d-410f-9e7c-006586d81d16")
 	(paper "User" 1270 1270)
 	(lib_symbols
+		(symbol "1N4148_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "35RAPC4BV4:35RAPC4BV4"
 			(pin_names
 				(offset 1.016)
@@ -5351,6 +5518,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -8231,6 +8549,350 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MSM261DGT003:MSM261DGT003"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MK2"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MSM261DGT003"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_fp:MSM261DGT003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Knowles"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SPK0641HT4H-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "SPK0641HT4H-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Knowles"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MSM261DGT003_0_0"
+				(rectangle
+					(start -12.7 -7.62)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MSM261DGT003_1_0"
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "SELECT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "CLOCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -11013,6 +11675,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_1_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SN74LVC2G125DCTR:SN74LVC2G125DCTR"
 			(pin_names
 				(offset 1.016)
@@ -11458,351 +12245,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SPK0641HT4H-1:SPK0641HT4H-1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "MK"
-				(at -12.7 10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SPK0641HT4H-1"
-				(at -12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SPK0641HT4H-1:MIC_SPK0641HT4H-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Knowles"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SPK0641HT4H-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "SPK0641HT4H-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Knowles"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SPK0641HT4H-1_0_0"
-				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "SELECT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "CLOCK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "DATA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -25107,6 +25549,12 @@
 		(uuid "0bee41c3-8415-4312-b4ca-445ee3f7873d")
 	)
 	(junction
+		(at -381 1029.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0acdf8-b402-4e0a-ac93-c9e8d364c2c2")
+	)
+	(junction
 		(at 629.92 806.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25129,6 +25577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "115cac16-36fa-4235-9eb4-e715ddf3391a")
+	)
+	(junction
+		(at -375.92 999.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c60745-6062-499f-8150-54f44f3e3174")
 	)
 	(junction
 		(at -661.67 538.48)
@@ -25317,6 +25771,12 @@
 		(uuid "3dc92725-89a2-434f-abe8-ab7256211c67")
 	)
 	(junction
+		(at -303.53 996.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eb38a52-f406-4d4a-991d-e75b35ced024")
+	)
+	(junction
 		(at 820.42 721.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25425,6 +25885,18 @@
 		(uuid "5dd8be1a-a0c1-42fb-be51-9f7d572ad1c7")
 	)
 	(junction
+		(at -341.63 999.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb24f0d-c1b1-4075-83c9-0755c80fe5fb")
+	)
+	(junction
+		(at -344.17 999.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61810eb3-2a97-408e-839b-64c458d132b5")
+	)
+	(junction
 		(at 773.43 745.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25489,6 +25961,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e0cce0f-b5c2-47cb-87a5-b58352a29674")
+	)
+	(junction
+		(at -344.17 1029.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e44b3f5-5ca6-4354-a6c7-9ae9c527bd55")
 	)
 	(junction
 		(at -361.95 784.86)
@@ -25561,6 +26039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea440c2-27c6-423f-af63-d2b5aa1ce188")
+	)
+	(junction
+		(at -344.17 991.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fcbe2c7-fcf9-42e2-9f3f-3347a773908c")
 	)
 	(junction
 		(at -334.01 764.54)
@@ -25687,6 +26171,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9418f532-347b-44fc-8d52-b93691abd2b9")
+	)
+	(junction
+		(at -341.63 1029.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96326ae8-d041-4bfa-9a75-04e997e0e941")
 	)
 	(junction
 		(at 1056.64 387.35)
@@ -25947,6 +26437,12 @@
 		(uuid "cbb3e0cc-382c-41ab-9be3-cdbbdd1c6b0f")
 	)
 	(junction
+		(at -303.53 1027.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc6a71eb-2f62-4e4f-ac6b-f523e456d348")
+	)
+	(junction
 		(at 1056.64 412.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25963,6 +26459,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce53a5cf-d4a4-4d7a-ab64-d690f95863a5")
+	)
+	(junction
+		(at -370.84 1017.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced73dcd-c30a-4f43-a1f1-e6063011537d")
 	)
 	(junction
 		(at 1421.13 566.42)
@@ -26055,6 +26557,12 @@
 		(uuid "e23cded6-9bf5-4513-8dec-bdc5650b51f3")
 	)
 	(junction
+		(at -368.3 986.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e25a3915-fbeb-4a8e-a360-c6a5c981e248")
+	)
+	(junction
 		(at -697.23 474.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26089,6 +26597,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e760bf98-2071-4879-9a8b-f2ca7182df74")
+	)
+	(junction
+		(at -344.17 1022.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e889d0d8-2bf3-4b22-a0eb-6cf903d16cb0")
 	)
 	(junction
 		(at -361.95 764.54)
@@ -26327,6 +26841,16 @@
 	)
 	(wire
 		(pts
+			(xy -344.17 1022.35) (xy -345.44 1022.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ba95b5-cd58-4adc-a700-093d24799f77")
+	)
+	(wire
+		(pts
 			(xy 814.07 542.29) (xy 814.07 544.83)
 		)
 		(stroke
@@ -26344,6 +26868,16 @@
 			(type default)
 		)
 		(uuid "03b0bae1-2808-4778-9e07-0ccd031a4ebc")
+	)
+	(wire
+		(pts
+			(xy -350.52 1022.35) (xy -355.6 1022.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bf7d44-827d-40c8-a3e9-7c2dec6777c3")
 	)
 	(wire
 		(pts
@@ -26464,6 +26998,16 @@
 			(type default)
 		)
 		(uuid "07b9a214-6123-431a-8106-78101745b8a9")
+	)
+	(wire
+		(pts
+			(xy -370.84 1017.27) (xy -350.52 1017.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08346b9c-4970-46d1-8a45-3b437d5cec0b")
 	)
 	(wire
 		(pts
@@ -26737,7 +27281,7 @@
 	)
 	(wire
 		(pts
-			(xy -361.95 991.87) (xy -341.63 991.87)
+			(xy -361.95 991.87) (xy -359.41 991.87)
 		)
 		(stroke
 			(width 0)
@@ -27237,6 +27781,16 @@
 	)
 	(wire
 		(pts
+			(xy -360.68 1022.35) (xy -361.95 1022.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23005c3d-f29e-486e-8f86-c2c494d37810")
+	)
+	(wire
+		(pts
 			(xy 335.28 306.07) (xy 339.09 306.07)
 		)
 		(stroke
@@ -27527,6 +28081,16 @@
 	)
 	(wire
 		(pts
+			(xy -341.63 1028.7) (xy -341.63 1029.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3571ad-df3d-42aa-a57c-bf8810b43e10")
+	)
+	(wire
+		(pts
 			(xy -648.97 547.37) (xy -648.97 546.1)
 		)
 		(stroke
@@ -27547,7 +28111,7 @@
 	)
 	(wire
 		(pts
-			(xy -375.92 986.79) (xy -341.63 986.79)
+			(xy -375.92 986.79) (xy -368.3 986.79)
 		)
 		(stroke
 			(width 0)
@@ -27747,6 +28311,16 @@
 	)
 	(wire
 		(pts
+			(xy -368.3 986.79) (xy -349.25 986.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a161bc-b3c3-44bc-9ca0-6f3cdae0da78")
+	)
+	(wire
+		(pts
 			(xy 416.56 439.42) (xy 347.98 439.42)
 		)
 		(stroke
@@ -27934,6 +28508,16 @@
 			(type default)
 		)
 		(uuid "3ab3c6c5-d6af-48b0-a82e-0522b0384274")
+	)
+	(wire
+		(pts
+			(xy -354.33 991.87) (xy -350.52 991.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad12f69-e537-4953-8055-53e76b257a76")
 	)
 	(wire
 		(pts
@@ -28327,6 +28911,16 @@
 	)
 	(wire
 		(pts
+			(xy -303.53 1027.43) (xy -306.07 1027.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a018506-58ff-4414-997b-f11894f84322")
+	)
+	(wire
+		(pts
 			(xy 1377.95 670.56) (xy 1377.95 666.75)
 		)
 		(stroke
@@ -28404,6 +28998,16 @@
 			(type default)
 		)
 		(uuid "4bc3586f-4da7-401b-9e50-fb74e969c5d3")
+	)
+	(wire
+		(pts
+			(xy -299.72 996.95) (xy -303.53 996.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be67983-2065-4393-8b1a-2b56928f2b9f")
 	)
 	(wire
 		(pts
@@ -28567,7 +29171,7 @@
 	)
 	(wire
 		(pts
-			(xy -381 1029.97) (xy -341.63 1029.97)
+			(xy -381 1029.97) (xy -344.17 1029.97)
 		)
 		(stroke
 			(width 0)
@@ -28674,6 +29278,16 @@
 			(type default)
 		)
 		(uuid "56ae61f9-e020-486e-9e34-49567f1be9ea")
+	)
+	(wire
+		(pts
+			(xy -365.76 881.38) (xy -345.44 881.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5760c131-c29f-4bca-a470-3d3302a4b98d")
 	)
 	(wire
 		(pts
@@ -28787,6 +29401,16 @@
 	)
 	(wire
 		(pts
+			(xy -344.17 991.87) (xy -341.63 991.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf4209d-641d-492b-9d8a-e84bb5a923b3")
+	)
+	(wire
+		(pts
 			(xy 483.87 314.96) (xy 496.57 314.96)
 		)
 		(stroke
@@ -28804,6 +29428,16 @@
 			(type default)
 		)
 		(uuid "5c15b443-4c13-4be5-b7c8-e75a48ab1140")
+	)
+	(wire
+		(pts
+			(xy -344.17 999.49) (xy -341.63 999.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7aa592-2ee4-4a78-be9b-97f0297bcc87")
 	)
 	(wire
 		(pts
@@ -28967,6 +29601,16 @@
 	)
 	(wire
 		(pts
+			(xy -306.07 1014.73) (xy -306.07 1022.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f0fc5a-ad03-4c2b-84c3-df4246e17ebb")
+	)
+	(wire
+		(pts
 			(xy 438.15 393.7) (xy 455.93 393.7)
 		)
 		(stroke
@@ -29074,16 +29718,6 @@
 			(type default)
 		)
 		(uuid "680ec8d6-8926-4c56-a05b-55acc36151ab")
-	)
-	(wire
-		(pts
-			(xy -294.64 996.95) (xy -306.07 996.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "683e7a6c-4534-4e53-b2b1-7e58af6fb4bb")
 	)
 	(wire
 		(pts
@@ -29397,7 +30031,7 @@
 	)
 	(wire
 		(pts
-			(xy -341.63 1022.35) (xy -361.95 1022.35)
+			(xy -341.63 1022.35) (xy -344.17 1022.35)
 		)
 		(stroke
 			(width 0)
@@ -29567,6 +30201,16 @@
 	)
 	(wire
 		(pts
+			(xy -303.53 996.95) (xy -306.07 996.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7df6bc-45ab-4bce-b09e-8593ff68c684")
+	)
+	(wire
+		(pts
 			(xy 416.56 360.68) (xy 447.04 360.68)
 		)
 		(stroke
@@ -29704,6 +30348,16 @@
 			(type default)
 		)
 		(uuid "8195c59d-f9e6-4414-b330-9bca770d0bf4")
+	)
+	(wire
+		(pts
+			(xy -345.44 1017.27) (xy -341.63 1017.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b3ab75-7712-4ea7-9453-406e4c7838c0")
 	)
 	(wire
 		(pts
@@ -30567,6 +31221,16 @@
 	)
 	(wire
 		(pts
+			(xy -341.63 998.22) (xy -341.63 999.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ac9caa-76e5-4b16-8974-b01c22afd2cc")
+	)
+	(wire
+		(pts
 			(xy 328.93 339.09) (xy 328.93 345.44)
 		)
 		(stroke
@@ -30814,6 +31478,16 @@
 			(type default)
 		)
 		(uuid "a777c9c5-3a17-4855-8580-a77212ba6b29")
+	)
+	(wire
+		(pts
+			(xy -344.17 1029.97) (xy -341.63 1029.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fa269f-83b5-4ace-b473-f2da707ced61")
 	)
 	(wire
 		(pts
@@ -31087,7 +31761,7 @@
 	)
 	(wire
 		(pts
-			(xy -381 1017.27) (xy -341.63 1017.27)
+			(xy -381 1017.27) (xy -370.84 1017.27)
 		)
 		(stroke
 			(width 0)
@@ -31384,6 +32058,16 @@
 			(type default)
 		)
 		(uuid "c35eda13-28b0-495c-8f16-3bed51b1f82b")
+	)
+	(wire
+		(pts
+			(xy -306.07 985.52) (xy -306.07 991.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a07b77-8472-4eb8-8665-2418d107f8f7")
 	)
 	(wire
 		(pts
@@ -31717,6 +32401,16 @@
 	)
 	(wire
 		(pts
+			(xy -344.17 986.79) (xy -341.63 986.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa7c2d3-9e87-4952-b66f-bcd6f90ca197")
+	)
+	(wire
+		(pts
 			(xy -690.88 449.58) (xy -676.91 449.58)
 		)
 		(stroke
@@ -31774,6 +32468,16 @@
 			(type default)
 		)
 		(uuid "d1cc2703-af8c-474f-801c-051336bd00b7")
+	)
+	(wire
+		(pts
+			(xy -345.44 991.87) (xy -344.17 991.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d3562b-08cd-4c98-8cc7-e6827b5a9087")
 	)
 	(wire
 		(pts
@@ -32327,16 +33031,6 @@
 	)
 	(wire
 		(pts
-			(xy -294.64 1027.43) (xy -306.07 1027.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87f4b0c-7b2b-41d6-96f8-1e88c0ed2cc1")
-	)
-	(wire
-		(pts
 			(xy -309.88 772.16) (xy -334.01 772.16)
 		)
 		(stroke
@@ -32364,6 +33058,16 @@
 			(type default)
 		)
 		(uuid "e8d7c1df-4690-4fc7-99d2-afccf45d0a41")
+	)
+	(wire
+		(pts
+			(xy -299.72 1027.43) (xy -303.53 1027.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ec372c-3870-4d79-8f3e-75bfc6615ab0")
 	)
 	(wire
 		(pts
@@ -32417,7 +33121,7 @@
 	)
 	(wire
 		(pts
-			(xy -378.46 881.38) (xy -345.44 881.38)
+			(xy -378.46 881.38) (xy -370.84 881.38)
 		)
 		(stroke
 			(width 0)
@@ -32907,7 +33611,7 @@
 	)
 	(wire
 		(pts
-			(xy -375.92 999.49) (xy -341.63 999.49)
+			(xy -375.92 999.49) (xy -344.17 999.49)
 		)
 		(stroke
 			(width 0)
@@ -36046,6 +36750,28 @@
 			)
 		)
 	)
+	(global_label "TEENSY_LED"
+		(shape input)
+		(at 510.54 617.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3508ca6e-3184-4261-aec3-5e6bc031511d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 510.54 631.5141 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO34"
 		(shape input)
 		(at 427.99 421.64 180)
@@ -38322,7 +39048,7 @@
 	)
 	(global_label "3.3V Teensy"
 		(shape input)
-		(at -306.07 1022.35 0)
+		(at -306.07 1014.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -38332,7 +39058,7 @@
 		)
 		(uuid "6f848994-184c-4b36-9164-09523d9410c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -291.7153 1022.35 0)
+			(at -291.7153 1014.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40657,7 +41383,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at -306.07 991.87 0)
+		(at -306.07 985.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -40667,7 +41393,7 @@
 		)
 		(uuid "b35f073f-4db9-4ec7-95ec-3b7bd0b325e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -299.2143 991.87 0)
+			(at -299.2143 985.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44716,6 +45442,171 @@
 		)
 	)
 	(symbol
+		(lib_name "1N4148_1")
+		(lib_id "Diode:1N4148")
+		(at -344.17 995.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fff4f01-c3e6-442a-8d73-c9e7036aa424")
+		(property "Reference" "D8"
+			(at -340.36 995.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at -340.36 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PESD5V0F1BL_315"
+			(at -344.17 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -344.17 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -344.17 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45961"
+			(at -344.17 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2"
+			(at -344.17 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2894a42-7b46-48b7-9b08-ed0ad177efb6")
+		)
+		(pin "2"
+			(uuid "6764a95d-3aa1-4249-a6ee-2e6e81372011")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at -347.98 991.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "103934ba-6374-40bc-81e0-60f74b77106f")
+		(property "Reference" "FB2"
+			(at -350.012 991.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω@100MHz"
+			(at -348.0181 988.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_fp:BLM15AG601SN1D"
+			(at -347.98 993.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -347.98 991.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+			(at -347.98 991.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at -347.98 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef1d196-8dd6-45bb-8a22-3fc73ab88234")
+		)
+		(pin "2"
+			(uuid "baf47fcc-d7e3-44be-b2e4-90936917ae40")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
 		(at 1056.64 415.29 0)
 		(unit 1)
@@ -45013,7 +45904,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "12eab97e-0dc9-4b66-acf2-1964bbb8c2dc")
 		(property "Reference" "C7"
 			(at -369.062 789.686 0)
@@ -47129,7 +48020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at -608.33 453.898 90)
 			(effects
 				(font
@@ -47147,7 +48038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9Ω ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "49.9Ω ±1% 62.5mW 0402 Thick Film Resistor"
 			(at -608.33 452.12 0)
 			(effects
 				(font
@@ -47156,7 +48047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" ""
 			(at -608.33 452.12 0)
 			(effects
 				(font
@@ -47165,7 +48056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17720"
+		(property "LCSC" "C87044"
 			(at -608.33 452.12 90)
 			(effects
 				(font
@@ -47183,7 +48074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F499JT5E"
+		(property "LCSC_MPN" ""
 			(at -608.33 452.12 90)
 			(effects
 				(font
@@ -47192,7 +48083,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "UNI-ROYAL"
+		(property "LCSC_Manufacturer" ""
 			(at -608.33 452.12 90)
 			(effects
 				(font
@@ -47632,6 +48523,94 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1N4148_1")
+		(lib_id "Diode:1N4148")
+		(at -303.53 1000.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ba7d2d-35cb-4e84-83d6-4353ae71c033")
+		(property "Reference" "D10"
+			(at -299.72 1000.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at -299.72 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PESD5V0F1BL_315"
+			(at -303.53 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -303.53 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -303.53 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45961"
+			(at -303.53 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2"
+			(at -303.53 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c5cb914-c19f-4174-aae5-08f0713b77fd")
+		)
+		(pin "2"
+			(uuid "57aab7c3-c4a5-4813-b9d1-15e4df0a22b5")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -48646,6 +49625,84 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at -358.14 1022.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2afd31e6-e342-41e3-b684-72fb5adbad65")
+		(property "Reference" "R57"
+			(at -358.14 1017.27 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "49.9 ohm"
+			(at -358.14 1019.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at -358.14 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -358.14 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9Ω ±1% 62.5mW 0402 Thick Film Resistor"
+			(at -358.14 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87044"
+			(at -358.14 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2462647c-d3c2-493b-9b00-a32caf61011a")
+		)
+		(pin "2"
+			(uuid "ee3fce9a-e99c-45e6-8be2-8d9a5d73471c")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 279.4 979.17 0)
 		(unit 1)
@@ -49134,7 +50191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "OUT"
+		(property "Label" "IN"
 			(at -253.746 850.138 0)
 			(effects
 				(font
@@ -49729,6 +50786,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at -375.92 999.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bd2d71e-75fe-41a9-9bfd-c77161f97968")
+		(property "Reference" "#PWR053"
+			(at -375.92 1005.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -375.92 1004.0525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -375.92 999.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -375.92 999.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -375.92 999.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77ef2bc7-fd81-4985-a338-9fef3ffe31ed")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 651.51 816.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50063,6 +51186,83 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at -347.98 1022.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3d23e9-85d4-4af4-a9db-b233cad335e5")
+		(property "Reference" "FB1"
+			(at -350.266 1021.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω@100MHz"
+			(at -348.0181 1018.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_fp:BLM15AG601SN1D"
+			(at -347.98 1024.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -347.98 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+			(at -347.98 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at -347.98 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7696a292-1eb4-49bd-9ee8-1266bd6c418b")
+		)
+		(pin "2"
+			(uuid "1e7f73af-c4c4-4591-a324-552c04ef4663")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -51275,7 +52475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at -551.18 450.85 0)
 			(effects
 				(font
@@ -51302,7 +52502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" ""
 			(at -551.18 450.85 0)
 			(effects
 				(font
@@ -51311,7 +52511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17520"
+		(property "LCSC" ""
 			(at -551.18 450.85 90)
 			(effects
 				(font
@@ -51329,7 +52529,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F2201T5E"
+		(property "LCSC_MPN" ""
 			(at -551.18 450.85 90)
 			(effects
 				(font
@@ -51338,7 +52538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "UNI-ROYAL"
+		(property "LCSC_Manufacturer" ""
 			(at -551.18 450.85 90)
 			(effects
 				(font
@@ -53409,6 +54609,124 @@
 		)
 	)
 	(symbol
+		(lib_id "35RAPC4BV4:35RAPC4BV4")
+		(at -124.46 784.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "556de3f7-4af8-494a-b2f0-950e13dfcbe4")
+		(property "Reference" "J28"
+			(at -124.974 773.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "35RAPC4BV4"
+			(at -124.974 775.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:SWITCHCRAFT_35RAPC4BV4"
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "G"
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm"
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft Inc."
+			(at -124.46 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8f2e62ae-994a-4439-848e-da6547b395c4")
+		)
+		(pin "2"
+			(uuid "ecb156c5-035a-4715-8793-ded29a433b59")
+		)
+		(pin "1"
+			(uuid "6e5e66a3-41ed-4fd7-9061-bf614ff9b699")
+		)
+		(pin "3"
+			(uuid "5f3ac226-0e1f-40a8-ab3c-d992076d00a3")
+		)
+		(pin "5"
+			(uuid "bb4454ad-1a45-4cc1-acf7-130d957cbbcd")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 941.07 894.08 0)
 		(unit 1)
@@ -54203,7 +55521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 776.9352 534.67 0)
 			(effects
 				(font
@@ -54230,7 +55548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" ""
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -54239,7 +55557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6119929"
+		(property "LCSC" ""
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -54257,7 +55575,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "CGA0805X7R105K500MT"
+		(property "LCSC_MPN" ""
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -54266,7 +55584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "HRE"
+		(property "LCSC_Manufacturer" ""
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -54927,7 +56245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at -610.87 451.358 90)
 			(effects
 				(font
@@ -54945,7 +56263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9Ω ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "49.9Ω ±1% 62.5mW 0402 Thick Film Resistor"
 			(at -610.87 449.58 0)
 			(effects
 				(font
@@ -54954,7 +56272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" ""
 			(at -610.87 449.58 0)
 			(effects
 				(font
@@ -54963,7 +56281,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17720"
+		(property "LCSC" "C87044"
 			(at -610.87 449.58 90)
 			(effects
 				(font
@@ -54981,7 +56299,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F499JT5E"
+		(property "LCSC_MPN" ""
 			(at -610.87 449.58 90)
 			(effects
 				(font
@@ -54990,7 +56308,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "UNI-ROYAL"
+		(property "LCSC_Manufacturer" ""
 			(at -610.87 449.58 90)
 			(effects
 				(font
@@ -55363,7 +56681,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "61357cff-0939-4045-bc55-f2baae86e257")
 		(property "Reference" "D3"
 			(at 532.384 610.616 0)
@@ -55995,6 +57313,83 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at -346.71 986.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "669ee5d3-a2cf-471e-bd79-df0dd08c087b")
+		(property "Reference" "FB6"
+			(at -349.758 985.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω@100MHz"
+			(at -346.7481 982.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_fp:BLM15AG601SN1D"
+			(at -346.71 988.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -346.71 986.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+			(at -346.71 986.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at -346.71 986.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617f8916-f4d4-4067-ac01-6b23685ee233")
+		)
+		(pin "2"
+			(uuid "a043d8f5-bf38-4ad0-86e0-723ee39fb6c5")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -56889,7 +58284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SPK0641HT4H-1:SPK0641HT4H-1")
+		(lib_id "MSM261DGT003:MSM261DGT003")
 		(at -323.85 994.41 0)
 		(mirror y)
 		(unit 1)
@@ -56907,7 +58302,7 @@
 				)
 			)
 		)
-		(property "Value" "SPK0641HT4H-1"
+		(property "Value" "MSM261DGT003"
 			(at -323.85 981.71 0)
 			(effects
 				(font
@@ -56915,7 +58310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:SPK0641HT4H-1"
+		(property "Footprint" "project_fp:MSM261DGT003"
 			(at -323.85 994.41 0)
 			(effects
 				(font
@@ -56934,7 +58329,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Omnidirectional -26dB 64dB LGA-6(2x4) Microphones RoHS"
+			(at -323.85 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C48227730"
+			(at -323.85 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "MSM261DGT003"
+			(at -323.85 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "MEMS"
+			(at -323.85 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "LGA-6(2x4)"
 			(at -323.85 994.41 0)
 			(effects
 				(font
@@ -58137,6 +59568,94 @@
 		)
 	)
 	(symbol
+		(lib_name "1N4148_1")
+		(lib_id "Diode:1N4148")
+		(at -303.53 1031.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77294f86-896b-4195-9aa4-b8fc4fb88e5d")
+		(property "Reference" "D11"
+			(at -299.72 1031.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at -299.72 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PESD5V0F1BL_315"
+			(at -303.53 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -303.53 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -303.53 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45961"
+			(at -303.53 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2"
+			(at -303.53 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a15d4b0-487c-48f0-94cb-de1c38cae0bf")
+		)
+		(pin "2"
+			(uuid "a9c8c90d-37f2-46f9-92c6-47d3303da3e0")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
 		(at -373.38 891.54 0)
 		(unit 1)
@@ -58760,7 +60279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at -560.07 450.85 0)
 			(effects
 				(font
@@ -58787,7 +60306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" ""
 			(at -560.07 450.85 0)
 			(effects
 				(font
@@ -58796,7 +60315,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17520"
+		(property "LCSC" ""
 			(at -560.07 450.85 90)
 			(effects
 				(font
@@ -58814,7 +60333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F2201T5E"
+		(property "LCSC_MPN" ""
 			(at -560.07 450.85 90)
 			(effects
 				(font
@@ -58823,7 +60342,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "UNI-ROYAL"
+		(property "LCSC_Manufacturer" ""
 			(at -560.07 450.85 90)
 			(effects
 				(font
@@ -59617,7 +61136,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "884d984a-8366-4936-bffb-d1ff17741450")
 		(property "Reference" "USBA1"
 			(at 821.055 530.8599 0)
@@ -59850,6 +61369,124 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "35RAPC4BV4:35RAPC4BV4")
+		(at -101.6 781.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "89a10a49-a168-419f-97cc-f905a65ac298")
+		(property "Reference" "J29"
+			(at -102.114 769.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "35RAPC4BV4"
+			(at -102.114 772.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:SWITCHCRAFT_35RAPC4BV4"
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "G"
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm"
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft Inc."
+			(at -101.6 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "728b2c3b-239a-4812-9c73-0b5900fb73a5")
+		)
+		(pin "2"
+			(uuid "5d018d83-81db-4c53-92f7-59728220c139")
+		)
+		(pin "1"
+			(uuid "08f89a7b-7b7b-4526-b5b9-68c027eb4215")
+		)
+		(pin "3"
+			(uuid "564b84e7-9359-4343-bd94-abc182b86a16")
+		)
+		(pin "5"
+			(uuid "bc07220d-850d-4738-8a0e-b3c9ee1abe23")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -60187,7 +61824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SPK0641HT4H-1:SPK0641HT4H-1")
+		(lib_id "MSM261DGT003:MSM261DGT003")
 		(at -323.85 1024.89 0)
 		(mirror y)
 		(unit 1)
@@ -60205,7 +61842,7 @@
 				)
 			)
 		)
-		(property "Value" "SPK0641HT4H-1"
+		(property "Value" "MSM261DGT003"
 			(at -323.85 1012.19 0)
 			(effects
 				(font
@@ -60213,7 +61850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:SPK0641HT4H-1"
+		(property "Footprint" "project_fp:MSM261DGT003"
 			(at -323.85 1024.89 0)
 			(effects
 				(font
@@ -60232,7 +61869,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Omnidirectional -26dB 64dB LGA-6(2x4) Microphones RoHS"
+			(at -323.85 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C48227730"
+			(at -323.85 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "MSM261DGT003"
+			(at -323.85 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "MEMS"
+			(at -323.85 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "LGA-6(2x4)"
 			(at -323.85 1024.89 0)
 			(effects
 				(font
@@ -60759,6 +62432,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at -370.84 1024.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e838c00-891c-4af5-8c98-52fb0b470dff")
+		(property "Reference" "#PWR051"
+			(at -370.84 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -370.84 1029.4525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -370.84 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -370.84 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -370.84 1024.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8f72c9e-63ef-4a49-b4d3-9cf76259e9c7")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
 		(at 473.71 557.53 0)
 		(mirror y)
@@ -61085,6 +62824,94 @@
 		)
 	)
 	(symbol
+		(lib_name "1N4148_1")
+		(lib_id "Diode:1N4148")
+		(at -344.17 1026.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907eedfa-40c1-465e-a86c-aa97d7273e3b")
+		(property "Reference" "D9"
+			(at -340.36 1026.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at -340.36 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PESD5V0F1BL_315"
+			(at -344.17 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -344.17 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -344.17 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45961"
+			(at -344.17 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2"
+			(at -344.17 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ead9cd-cf10-4774-894d-3f3629f1ad4b")
+		)
+		(pin "2"
+			(uuid "77068d36-e335-4da1-adf3-fb00adf527ec")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at -702.31 474.98 0)
 		(mirror y)
@@ -61289,6 +63116,72 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -303.53 1004.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91bce8bd-3cb4-4081-9587-39ac43cd2338")
+		(property "Reference" "#PWR055"
+			(at -303.53 1010.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -303.53 1009.1325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -303.53 1004.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -303.53 1004.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -303.53 1004.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19ad8bb3-d721-43b5-be22-022165471525")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -63167,6 +65060,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at -297.18 996.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a7c932-74c9-4e3e-aa47-a61edb8074ef")
+		(property "Reference" "FB3"
+			(at -297.2181 990.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω@100MHz"
+			(at -297.2181 993.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:BLM15AG601SN1D"
+			(at -297.18 998.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -297.18 996.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+			(at -297.18 996.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at -297.18 996.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b65fff4-14ea-4f65-82c6-62df5c16b530")
+		)
+		(pin "2"
+			(uuid "f0a52475-c3bb-4e0f-b186-6e74b3da95ee")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 499.11 793.75 90)
 		(unit 1)
@@ -63870,6 +65840,84 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at -356.87 991.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b25ef82e-1118-4b5f-a0ce-5b8a8babf306")
+		(property "Reference" "R56"
+			(at -356.87 986.79 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "49.9 ohm"
+			(at -356.87 989.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at -356.87 991.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -356.87 991.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9Ω ±1% 62.5mW 0402 Thick Film Resistor"
+			(at -356.87 991.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87044"
+			(at -356.87 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "764377bf-d738-4a0d-8646-8029b169ea7d")
+		)
+		(pin "2"
+			(uuid "28cbfdf3-0c67-49af-a1d4-83e554084c8d")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 1045.21 377.19 0)
 		(unit 1)
@@ -63935,13 +65983,91 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at -368.3 881.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b1e1ad-7bda-4369-8037-01575ee55bcd")
+		(property "Reference" "R55"
+			(at -368.3 876.3 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "49.9 ohm"
+			(at -368.3 878.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at -368.3 881.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -368.3 881.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9Ω ±1% 62.5mW 0402 Thick Film Resistor"
+			(at -368.3 881.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87044"
+			(at -368.3 881.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edbde599-8d4a-4118-b73a-5fc5307c7615")
+		)
+		(pin "2"
+			(uuid "a606a1ac-a833-40be-8fbf-d511de5cb729")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at -345.44 802.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b9dc8040-4358-4bc8-a9e3-5f8ab5cf2712")
 		(property "Reference" "C9"
 			(at -338.328 803.656 0)
@@ -64513,6 +66639,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at -297.18 1027.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfad6d5d-6a66-46b8-9779-dce1f70812de")
+		(property "Reference" "FB4"
+			(at -297.2181 1021.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω@100MHz"
+			(at -297.2181 1023.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:BLM15AG601SN1D"
+			(at -297.18 1029.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -297.18 1027.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+			(at -297.18 1027.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at -297.18 1027.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a724f0b3-7e89-4d1c-841e-3d02f587ea51")
+		)
+		(pin "2"
+			(uuid "eca8e4a5-5447-4950-9d14-f681c9ef5a5f")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 1094.74 986.79 0)
 		(unit 1)
@@ -64610,6 +66813,72 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -368.3 994.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16b66bf-291a-4641-88d1-87f1246855fb")
+		(property "Reference" "#PWR054"
+			(at -368.3 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -368.3 998.9725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -368.3 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -368.3 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -368.3 994.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "043cc6b8-e412-4e00-935f-4091eaf6203c")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -65529,7 +67798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at -735.33 470.662 90)
 			(effects
 				(font
@@ -65556,7 +67825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" ""
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -65565,7 +67834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" ""
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -65583,7 +67852,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F1002T5E"
+		(property "LCSC_MPN" ""
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -65592,7 +67861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "UNI-ROYAL"
+		(property "LCSC_Manufacturer" ""
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -65738,6 +68007,72 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -303.53 1035.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c75ec180-74ed-403f-8bbd-40a1e789880d")
+		(property "Reference" "#PWR056"
+			(at -303.53 1041.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -303.53 1039.6125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -303.53 1035.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -303.53 1035.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -303.53 1035.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c57354f-dc8e-46e3-8529-653a2b043d80")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -66238,6 +68573,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at -347.98 1017.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d044f6eb-4825-4220-b2e8-0001a3843b24")
+		(property "Reference" "FB5"
+			(at -350.52 1016.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω@100MHz"
+			(at -348.0181 1013.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_fp:BLM15AG601SN1D"
+			(at -347.98 1019.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -347.98 1017.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
+			(at -347.98 1017.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at -347.98 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "422d368c-575a-415a-ac3e-9f755cbce6ff")
+		)
+		(pin "2"
+			(uuid "3cb99683-7faf-4386-b0dd-4e8a85f5d405")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project_lil_2:USB_header_1x5_2.54")
 		(at 826.77 353.06 0)
 		(unit 1)
@@ -66523,6 +68935,72 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -381 1029.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25ed40e-0678-4642-acac-c1955e0b6050")
+		(property "Reference" "#PWR052"
+			(at -381 1036.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -381 1034.5325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -381 1029.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -381 1029.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -381 1029.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec50c824-4e2f-43e5-981a-5f233618f1d1")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -67698,6 +70176,94 @@
 		)
 	)
 	(symbol
+		(lib_name "1N4148_1")
+		(lib_id "Diode:1N4148")
+		(at -370.84 1021.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5a29a7a-b8c0-4199-aed9-eb6bb6d30004")
+		(property "Reference" "D6"
+			(at -367.03 1021.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at -367.03 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PESD5V0F1BL_315"
+			(at -370.84 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -370.84 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -370.84 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45961"
+			(at -370.84 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2"
+			(at -370.84 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb6bf96-f62d-4cef-a0cc-e22ddbb2bcdc")
+		)
+		(pin "2"
+			(uuid "f21e2024-b360-4ae0-8968-c1861cfd2d97")
+		)
+		(instances
+			(project "t-dsp_tac5212_audio_shield_adaptor"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 789.94 900.43 270)
 		(unit 1)
@@ -68029,6 +70595,94 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1N4148_1")
+		(lib_id "Diode:1N4148")
+		(at -368.3 990.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72d223d-4f47-474b-ad31-5b4bda53cc6c")
+		(property "Reference" "D7"
+			(at -364.49 990.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at -364.49 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PESD5V0F1BL_315"
+			(at -368.3 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -368.3 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -368.3 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45961"
+			(at -368.3 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2"
+			(at -368.3 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74830490-caae-4a28-a883-5819b494dcfc")
+		)
+		(pin "2"
+			(uuid "fd91b9d0-2bad-415b-b5d5-0e6d7a0487fb")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -71405,7 +74059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at -690.88 455.422 90)
 			(effects
 				(font
@@ -71423,7 +74077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9Ω ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "49.9Ω ±1% 62.5mW 0402 Thick Film Resistor"
 			(at -690.88 457.2 0)
 			(effects
 				(font
@@ -71432,7 +74086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" ""
 			(at -690.88 457.2 0)
 			(effects
 				(font
@@ -71441,7 +74095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17720"
+		(property "LCSC" "C87044"
 			(at -690.88 457.2 90)
 			(effects
 				(font
@@ -71459,7 +74113,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F499JT5E"
+		(property "LCSC_MPN" ""
 			(at -690.88 457.2 90)
 			(effects
 				(font
@@ -71468,7 +74122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" "UNI-ROYAL"
+		(property "LCSC_Manufacturer" ""
 			(at -690.88 457.2 90)
 			(effects
 				(font
@@ -71520,7 +74174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at -381 1019.81 0)
 			(effects
 				(font
@@ -71547,7 +74201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" ""
 			(at -381 1019.81 0)
 			(effects
 				(font
@@ -71736,7 +74390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at -375.92 989.33 0)
 			(effects
 				(font
@@ -71763,7 +74417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" ""
 			(at -375.92 989.33 0)
 			(effects
 				(font

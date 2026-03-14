@@ -30,4 +30,6 @@
   (lib (name "73725-0110BLF")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/73725-0110BLF.kicad_sym")(options "")(descr ""))
   (lib (name "SPK0641HT4H-1")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SPK0641HT4H-1.kicad_sym")(options "")(descr ""))
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "MSM261DGT003")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/MSM261DGT003.kicad_sym")(options "")(descr ""))
+  (lib (name "PESD5V0F1BL_315")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/PESD5V0F1BL_315.kicad_sym")(options "")(descr ""))
 )
