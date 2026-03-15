@@ -8760,44 +8760,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
 			(symbol "MSM261DGT003_1_0"
 				(pin input line
@@ -25549,7 +25511,7 @@
 		(uuid "0bee41c3-8415-4312-b4ca-445ee3f7873d")
 	)
 	(junction
-		(at -381 1029.97)
+		(at -402.59 1029.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c0acdf8-b402-4e0a-ac93-c9e8d364c2c2")
@@ -25579,7 +25541,7 @@
 		(uuid "115cac16-36fa-4235-9eb4-e715ddf3391a")
 	)
 	(junction
-		(at -375.92 999.49)
+		(at -401.32 999.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11c60745-6062-499f-8150-54f44f3e3174")
@@ -26005,7 +25967,7 @@
 		(uuid "776ff759-c876-4aaf-bcdc-99c71f8d7b71")
 	)
 	(junction
-		(at -375.92 986.79)
+		(at -401.32 986.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78b413f3-41c3-4495-a4eb-0cf2eb19b8d2")
@@ -26029,7 +25991,7 @@
 		(uuid "7cdd6dc6-5cb9-4d3b-aae5-a594109a54de")
 	)
 	(junction
-		(at -381 1017.27)
+		(at -402.59 1017.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e0cc2e8-1169-4385-988e-41f4979328c8")
@@ -27001,7 +26963,7 @@
 	)
 	(wire
 		(pts
-			(xy -370.84 1017.27) (xy -350.52 1017.27)
+			(xy -370.84 1017.27) (xy -341.63 1017.27)
 		)
 		(stroke
 			(width 0)
@@ -27291,7 +27253,7 @@
 	)
 	(wire
 		(pts
-			(xy -375.92 991.87) (xy -375.92 999.49)
+			(xy -401.32 991.87) (xy -401.32 999.49)
 		)
 		(stroke
 			(width 0)
@@ -28111,7 +28073,7 @@
 	)
 	(wire
 		(pts
-			(xy -375.92 986.79) (xy -368.3 986.79)
+			(xy -401.32 986.79) (xy -386.08 986.79)
 		)
 		(stroke
 			(width 0)
@@ -28311,7 +28273,7 @@
 	)
 	(wire
 		(pts
-			(xy -368.3 986.79) (xy -349.25 986.79)
+			(xy -368.3 986.79) (xy -341.63 986.79)
 		)
 		(stroke
 			(width 0)
@@ -29171,7 +29133,7 @@
 	)
 	(wire
 		(pts
-			(xy -381 1029.97) (xy -344.17 1029.97)
+			(xy -402.59 1029.97) (xy -344.17 1029.97)
 		)
 		(stroke
 			(width 0)
@@ -30061,6 +30023,16 @@
 	)
 	(wire
 		(pts
+			(xy -381 986.79) (xy -368.3 986.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e1fe29-7435-442b-8133-24bea197e32f")
+	)
+	(wire
+		(pts
 			(xy 843.28 934.72) (xy 847.09 934.72)
 		)
 		(stroke
@@ -30348,16 +30320,6 @@
 			(type default)
 		)
 		(uuid "8195c59d-f9e6-4414-b330-9bca770d0bf4")
-	)
-	(wire
-		(pts
-			(xy -345.44 1017.27) (xy -341.63 1017.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b3ab75-7712-4ea7-9453-406e4c7838c0")
 	)
 	(wire
 		(pts
@@ -31041,7 +31003,7 @@
 	)
 	(wire
 		(pts
-			(xy -381 1017.27) (xy -387.35 1017.27)
+			(xy -402.59 1017.27) (xy -408.94 1017.27)
 		)
 		(stroke
 			(width 0)
@@ -31491,6 +31453,16 @@
 	)
 	(wire
 		(pts
+			(xy -382.27 1017.27) (xy -370.84 1017.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a882ade2-6a43-4378-8aa5-eb39413de39e")
+	)
+	(wire
+		(pts
 			(xy -619.76 541.02) (xy -619.76 538.48)
 		)
 		(stroke
@@ -31761,7 +31733,7 @@
 	)
 	(wire
 		(pts
-			(xy -381 1017.27) (xy -370.84 1017.27)
+			(xy -402.59 1017.27) (xy -387.35 1017.27)
 		)
 		(stroke
 			(width 0)
@@ -32351,7 +32323,7 @@
 	)
 	(wire
 		(pts
-			(xy -375.92 986.79) (xy -382.27 986.79)
+			(xy -401.32 986.79) (xy -407.67 986.79)
 		)
 		(stroke
 			(width 0)
@@ -32398,16 +32370,6 @@
 			(type default)
 		)
 		(uuid "cddbb1ba-748a-4208-b844-b50887e4600c")
-	)
-	(wire
-		(pts
-			(xy -344.17 986.79) (xy -341.63 986.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa7c2d3-9e87-4952-b66f-bcd6f90ca197")
 	)
 	(wire
 		(pts
@@ -32841,7 +32803,7 @@
 	)
 	(wire
 		(pts
-			(xy -381 1022.35) (xy -381 1029.97)
+			(xy -402.59 1022.35) (xy -402.59 1029.97)
 		)
 		(stroke
 			(width 0)
@@ -33611,7 +33573,7 @@
 	)
 	(wire
 		(pts
-			(xy -375.92 999.49) (xy -344.17 999.49)
+			(xy -401.32 999.49) (xy -344.17 999.49)
 		)
 		(stroke
 			(width 0)
@@ -35640,7 +35602,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at -360.68 1029.97 180)
+		(at -382.27 1029.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35650,7 +35612,7 @@
 		)
 		(uuid "19c94ff1-944d-4588-99fd-088dda2b69d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -367.5357 1029.97 0)
+			(at -389.1257 1029.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38022,7 +37984,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at -347.98 999.49 180)
+		(at -373.38 999.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -38032,7 +37994,7 @@
 		)
 		(uuid "5499f7fe-4798-4f65-9f73-39985930507e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -354.8357 999.49 0)
+			(at -380.2357 999.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41753,7 +41715,7 @@
 	)
 	(global_label "3.3V Teensy"
 		(shape input)
-		(at -382.27 986.79 180)
+		(at -407.67 986.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -41763,7 +41725,7 @@
 		)
 		(uuid "be3a4911-fc42-47cb-b384-dfc4d25677c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -395.9637 986.7106 0)
+			(at -421.3637 986.7106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43632,7 +43594,7 @@
 	)
 	(global_label "3.3V Teensy"
 		(shape input)
-		(at -387.35 1017.27 180)
+		(at -408.94 1017.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43642,7 +43604,7 @@
 		)
 		(uuid "f66c7dce-7896-4fb4-89d6-b9054fa93152")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -401.0437 1017.1906 0)
+			(at -422.6337 1017.1906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44889,127 +44851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Amphenol"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "15.03mm"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/737250110BLF/Amphenol/view-part/?ref=eda"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "AL1"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/737250110BLF/Amphenol/view-part/?ref=snap"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "737250110BLF"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB, 2.0 TYPE A, RECEPTACLE, TH; USB Connector Type:USB Type A; USB Standard:USB 2.0; Gender:Receptacle; No. of Positions:4Ways; Connector Mounting:Through Hole Mount; Orientation:Right Angle; Contact Material:Copper Alloy; Contact RoHS Compliant: Yes"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "AMPHENOL"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 896.62 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "73725-0110BLF"
 			(at 896.62 574.04 0)
 			(effects
 				(font
@@ -45461,7 +45303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESD DIODE"
 			(at -340.36 995.68 0)
 			(effects
 				(font
@@ -45487,7 +45329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15VC Clamp 2.5A Ipp ESD DIODE DFN1006-2"
 			(at -344.17 995.68 0)
 			(effects
 				(font
@@ -45507,6 +45349,42 @@
 		)
 		(property "Package" "DFN1006-2"
 			(at -344.17 995.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -344.17 995.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "PESD5V0F1BL,315"
+			(at -344.17 995.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Nexperia"
+			(at -344.17 995.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DFN1006-2"
+			(at -344.17 995.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45583,6 +45461,42 @@
 			)
 		)
 		(property "LCSC" "C76884"
+			(at -347.98 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -347.98 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM15AG601SN1D"
+			(at -347.98 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at -347.98 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
 			(at -347.98 991.87 90)
 			(effects
 				(font
@@ -46177,16 +46091,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Everlight Electronics"
-			(at 1366.52 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Label" "OPTICAL IN"
 			(at 1366.901 549.402 0)
 			(effects
@@ -46196,15 +46100,6 @@
 			)
 		)
 		(property "Package / Case" "jack"
-			(at 1367.79 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FCR6842032R"
 			(at 1367.79 565.15 0)
 			(effects
 				(font
@@ -46470,16 +46365,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 1075.69 867.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -47021,42 +46906,6 @@
 			)
 		)
 		(property "Package / Case" "through-hole"
-			(at 1343.66 665.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
-			(at 1343.66 665.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
-			(at 1343.66 665.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 1343.66 665.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
 			(at 1343.66 665.48 0)
 			(effects
 				(font
@@ -48047,7 +47896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at -608.33 452.12 0)
 			(effects
 				(font
@@ -48074,7 +47923,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "RC0402FR-0749R9L"
 			(at -608.33 452.12 90)
 			(effects
 				(font
@@ -48083,7 +47932,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "YAGEO"
 			(at -608.33 452.12 90)
 			(effects
 				(font
@@ -48548,7 +48397,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESD DIODE"
 			(at -299.72 1000.76 0)
 			(effects
 				(font
@@ -48574,7 +48423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15VC Clamp 2.5A Ipp ESD DIODE DFN1006-2"
 			(at -303.53 1000.76 0)
 			(effects
 				(font
@@ -48594,6 +48443,42 @@
 		)
 		(property "Package" "DFN1006-2"
 			(at -303.53 1000.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -303.53 1000.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "PESD5V0F1BL,315"
+			(at -303.53 1000.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Nexperia"
+			(at -303.53 1000.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DFN1006-2"
+			(at -303.53 1000.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49687,6 +49572,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_MPN" "RC0402FR-0749R9L"
+			(at -358.14 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at -358.14 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -358.14 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -358.14 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2462647c-d3c2-493b-9b00-a32caf61011a")
 		)
@@ -49963,34 +49884,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 1391.92 562.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 1391.92 562.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
-			(at 1391.92 562.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 1391.92 562.61 0)
 			(effects
 				(font
@@ -50228,24 +50122,6 @@
 		)
 		(property "LCSC_Manufacturer" ""
 			(at -254 855.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Switchcraft"
-			(at -254 855.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "35RAPC3BH3"
-			(at -254 834.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50786,7 +50662,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -375.92 999.49 0)
+		(at -401.32 999.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -50795,7 +50671,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bd2d71e-75fe-41a9-9bfd-c77161f97968")
 		(property "Reference" "#PWR053"
-			(at -375.92 1005.84 0)
+			(at -401.32 1005.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50804,7 +50680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -375.92 1004.0525 0)
+			(at -401.32 1004.0525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50812,7 +50688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -375.92 999.49 0)
+			(at -401.32 999.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50821,7 +50697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -375.92 999.49 0)
+			(at -401.32 999.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50830,7 +50706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -375.92 999.49 0)
+			(at -401.32 999.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51245,6 +51121,42 @@
 			)
 		)
 		(property "LCSC" "C76884"
+			(at -347.98 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -347.98 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM15AG601SN1D"
+			(at -347.98 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at -347.98 1022.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
 			(at -347.98 1022.35 90)
 			(effects
 				(font
@@ -52466,7 +52378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.21k ohm"
+		(property "Value" "2.21k"
 			(at -549.402 455.168 90)
 			(effects
 				(font
@@ -52493,7 +52405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "2.2kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at -551.18 450.85 0)
 			(effects
 				(font
@@ -52502,7 +52414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at -551.18 450.85 0)
 			(effects
 				(font
@@ -52511,7 +52423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2906865"
 			(at -551.18 450.85 90)
 			(effects
 				(font
@@ -52529,7 +52441,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "FRC0402F2201TS"
 			(at -551.18 450.85 90)
 			(effects
 				(font
@@ -52538,7 +52450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "FOJAN"
 			(at -551.18 450.85 90)
 			(effects
 				(font
@@ -53149,34 +53061,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 1371.6 666.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 1371.6 666.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
-			(at 1371.6 666.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "80-C0805C104K5RACLR"
 			(at 1371.6 666.75 0)
 			(effects
 				(font
@@ -54073,87 +53958,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Switchcraft Inc."
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -240.0308 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at -240.0308 836.93 0)
 			(effects
 				(font
@@ -54662,46 +54467,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "G"
-			(at -124.46 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -124.46 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm"
-			(at -124.46 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft Inc."
-			(at -124.46 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "8f2e62ae-994a-4439-848e-da6547b395c4")
 		)
@@ -55117,117 +54882,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SparkFun Electronics"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.9 mm"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/?ref=eda"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/?ref=snap"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PRT-14417"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "QWIIC JST CONNECTOR - SMD 4-PIN"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 816.61 1150.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "SparkFun Electronics"
 			(at 816.61 1150.62 0)
 			(effects
 				(font
@@ -55539,7 +55194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "1uF ±10% 16V Ceramic Capacitor X5R 0402"
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -55548,7 +55203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -55557,7 +55212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C29266"
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -55575,7 +55230,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "CL05A105KO5NNNC"
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -55584,7 +55239,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "Samsung Electro-Mechanics"
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -55856,16 +55511,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 1076.96 896.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -56272,7 +55917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at -610.87 449.58 0)
 			(effects
 				(font
@@ -56299,7 +55944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "RC0402FR-0749R9L"
 			(at -610.87 449.58 90)
 			(effects
 				(font
@@ -56308,7 +55953,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "YAGEO"
 			(at -610.87 449.58 90)
 			(effects
 				(font
@@ -57320,7 +56965,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at -346.71 986.79 90)
+		(at -383.54 986.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -57328,7 +56973,7 @@
 		(dnp no)
 		(uuid "669ee5d3-a2cf-471e-bd79-df0dd08c087b")
 		(property "Reference" "FB6"
-			(at -349.758 985.52 90)
+			(at -386.588 985.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57336,7 +56981,7 @@
 			)
 		)
 		(property "Value" "600Ω@100MHz"
-			(at -346.7481 982.98 90)
+			(at -383.5781 982.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57345,7 +56990,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:BLM15AG601SN1D"
-			(at -346.71 988.568 90)
+			(at -383.54 988.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57354,7 +56999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -346.71 986.79 0)
+			(at -383.54 986.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57363,7 +57008,7 @@
 			)
 		)
 		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
-			(at -346.71 986.79 0)
+			(at -383.54 986.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57372,7 +57017,43 @@
 			)
 		)
 		(property "LCSC" "C76884"
-			(at -346.71 986.79 90)
+			(at -383.54 986.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -383.54 986.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM15AG601SN1D"
+			(at -383.54 986.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at -383.54 986.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -383.54 986.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58374,26 +58055,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Knowles"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
 			(at -323.85 994.41 0)
 			(effects
@@ -58404,103 +58065,12 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "LCSC TYPE" "SMD"
 			(at -323.85 994.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=eda"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=snap"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SPK0641HT4H-1"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SPK0641HT4H-1"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Knowles"
-			(at -323.85 994.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -58519,14 +58089,8 @@
 		(pin "5"
 			(uuid "6b320b8b-031a-4ebd-b654-b1a83a519b59")
 		)
-		(pin "8"
-			(uuid "14c436c8-75ce-4a9f-a3cc-b7288bc61d5c")
-		)
 		(pin "6"
 			(uuid "a560b6d7-e1ab-4512-9723-036e37f055b5")
-		)
-		(pin "7"
-			(uuid "c8782b87-bfa5-4aca-ad85-4b644d1ee44f")
 		)
 		(instances
 			(project "t-dsp_desktop_pro"
@@ -59148,16 +58712,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Everlight Electronics"
-			(at 1367.79 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Label" "OPTICAL OUT"
 			(at 1366.901 578.612 0)
 			(effects
@@ -59167,15 +58721,6 @@
 			)
 		)
 		(property "Package / Case" "jack"
-			(at 1367.79 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FCR6842032T"
 			(at 1367.79 594.36 0)
 			(effects
 				(font
@@ -59587,7 +59132,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESD DIODE"
 			(at -299.72 1031.24 0)
 			(effects
 				(font
@@ -59613,7 +59158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15VC Clamp 2.5A Ipp ESD DIODE DFN1006-2"
 			(at -303.53 1031.24 0)
 			(effects
 				(font
@@ -59633,6 +59178,42 @@
 		)
 		(property "Package" "DFN1006-2"
 			(at -303.53 1031.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -303.53 1031.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "PESD5V0F1BL,315"
+			(at -303.53 1031.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Nexperia"
+			(at -303.53 1031.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DFN1006-2"
+			(at -303.53 1031.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60140,87 +59721,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Switchcraft Inc."
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -296.1648 718.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at -296.1648 718.312 0)
 			(effects
 				(font
@@ -60270,7 +59771,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.21k ohm"
+		(property "Value" "2.21k"
 			(at -558.292 455.168 90)
 			(effects
 				(font
@@ -60297,7 +59798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "2.2kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at -560.07 450.85 0)
 			(effects
 				(font
@@ -60306,7 +59807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at -560.07 450.85 0)
 			(effects
 				(font
@@ -60315,7 +59816,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2906865"
 			(at -560.07 450.85 90)
 			(effects
 				(font
@@ -60333,7 +59834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "FRC0402F2201TS"
 			(at -560.07 450.85 90)
 			(effects
 				(font
@@ -60342,7 +59843,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "FOJAN"
 			(at -560.07 450.85 90)
 			(effects
 				(font
@@ -61428,46 +60929,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "G"
-			(at -101.6 781.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -101.6 781.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm"
-			(at -101.6 781.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft Inc."
-			(at -101.6 781.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "728b2c3b-239a-4812-9c73-0b5900fb73a5")
 		)
@@ -61914,26 +61375,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Knowles"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
 			(at -323.85 1024.89 0)
 			(effects
@@ -61944,103 +61385,12 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "LCSC TYPE" "SMD"
 			(at -323.85 1024.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=eda"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPK0641HT4H-1/Knowles/view-part/?ref=snap"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SPK0641HT4H-1"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "20 Hz ~ 20 kHz Digital, PDM Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SPK0641HT4H-1"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Knowles"
-			(at -323.85 1024.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -62059,14 +61409,8 @@
 		(pin "5"
 			(uuid "607cb169-c0ff-4f27-9e26-e63f961a82fe")
 		)
-		(pin "8"
-			(uuid "97a994f2-af2e-4f7e-8896-87dc4d33fe72")
-		)
 		(pin "6"
 			(uuid "5b27b1c9-080f-4052-8d05-ce312095c7f7")
-		)
-		(pin "7"
-			(uuid "9cb594ce-5f8c-4fc2-bb3e-aa8f8ff354f1")
 		)
 		(instances
 			(project ""
@@ -62244,16 +61588,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 1061.67 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -62712,87 +62046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Switchcraft Inc."
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -240.03 822.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at -240.03 822.96 0)
 			(effects
 				(font
@@ -62843,7 +62097,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESD DIODE"
 			(at -340.36 1026.16 0)
 			(effects
 				(font
@@ -62869,7 +62123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15VC Clamp 2.5A Ipp ESD DIODE DFN1006-2"
 			(at -344.17 1026.16 0)
 			(effects
 				(font
@@ -62889,6 +62143,42 @@
 		)
 		(property "Package" "DFN1006-2"
 			(at -344.17 1026.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -344.17 1026.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "PESD5V0F1BL,315"
+			(at -344.17 1026.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Nexperia"
+			(at -344.17 1026.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DFN1006-2"
+			(at -344.17 1026.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63912,87 +63202,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Switchcraft Inc."
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -296.164 704.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at -296.164 704.342 0)
 			(effects
 				(font
@@ -64079,34 +63289,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "WIZnet"
-			(at 1408.43 674.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "J1B1211CCD"
-			(at 1408.43 674.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "through-hole"
-			(at 1408.43 674.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "950-J1B1211CCD"
 			(at 1408.43 674.37 0)
 			(effects
 				(font
@@ -65121,6 +64304,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at -297.18 996.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM15AG601SN1D"
+			(at -297.18 996.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at -297.18 996.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -297.18 996.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b65fff4-14ea-4f65-82c6-62df5c16b530")
 		)
@@ -65788,34 +65007,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 1344.93 596.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 1344.93 596.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
-			(at 1344.93 596.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 1344.93 596.9 0)
 			(effects
 				(font
@@ -65894,6 +65086,42 @@
 			)
 		)
 		(property "LCSC" "C87044"
+			(at -356.87 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-0749R9L"
+			(at -356.87 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at -356.87 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -356.87 991.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
 			(at -356.87 991.87 90)
 			(effects
 				(font
@@ -66037,6 +65265,42 @@
 			)
 		)
 		(property "LCSC" "C87044"
+			(at -368.3 881.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-0749R9L"
+			(at -368.3 881.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at -368.3 881.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -368.3 881.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
 			(at -368.3 881.38 90)
 			(effects
 				(font
@@ -66700,6 +65964,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at -297.18 1027.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM15AG601SN1D"
+			(at -297.18 1027.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at -297.18 1027.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -297.18 1027.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a724f0b3-7e89-4d1c-841e-3d02f587ea51")
 		)
@@ -67097,24 +66397,6 @@
 		)
 		(property "LCSC_Manufacturer" ""
 			(at -287.02 737.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Switchcraft"
-			(at -287.02 737.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "35RAPC3BH3"
-			(at -287.02 716.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67816,7 +67098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "RES 10kΩ ±1% 62.5mW 0402"
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -67825,7 +67107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -67834,7 +67116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60490"
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -67852,7 +67134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "RC0402FR-0710KL"
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -67861,7 +67143,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "YAGEO"
 			(at -735.33 472.44 0)
 			(effects
 				(font
@@ -68574,7 +67856,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at -347.98 1017.27 90)
+		(at -384.81 1017.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68582,7 +67864,7 @@
 		(dnp no)
 		(uuid "d044f6eb-4825-4220-b2e8-0001a3843b24")
 		(property "Reference" "FB5"
-			(at -350.52 1016.254 90)
+			(at -387.35 1016.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68590,7 +67872,7 @@
 			)
 		)
 		(property "Value" "600Ω@100MHz"
-			(at -348.0181 1013.46 90)
+			(at -384.8481 1013.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68599,7 +67881,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:BLM15AG601SN1D"
-			(at -347.98 1019.048 90)
+			(at -384.81 1019.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68608,7 +67890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -347.98 1017.27 0)
+			(at -384.81 1017.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68617,7 +67899,7 @@
 			)
 		)
 		(property "Description" "600Ω@100MHz 1 Line Ferrite Bead 0402 300mA 520mΩ"
-			(at -347.98 1017.27 0)
+			(at -384.81 1017.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68626,7 +67908,43 @@
 			)
 		)
 		(property "LCSC" "C76884"
-			(at -347.98 1017.27 90)
+			(at -384.81 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -384.81 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM15AG601SN1D"
+			(at -384.81 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at -384.81 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402"
+			(at -384.81 1017.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68942,7 +68260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -381 1029.97 0)
+		(at -402.59 1029.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -68951,7 +68269,7 @@
 		(fields_autoplaced yes)
 		(uuid "d25ed40e-0678-4642-acac-c1955e0b6050")
 		(property "Reference" "#PWR052"
-			(at -381 1036.32 0)
+			(at -402.59 1036.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68960,7 +68278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -381 1034.5325 0)
+			(at -402.59 1034.5325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68968,7 +68286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -381 1029.97 0)
+			(at -402.59 1029.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68977,7 +68295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -381 1029.97 0)
+			(at -402.59 1029.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68986,7 +68304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -381 1029.97 0)
+			(at -402.59 1029.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70195,7 +69513,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESD DIODE"
 			(at -367.03 1021.08 0)
 			(effects
 				(font
@@ -70221,7 +69539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15VC Clamp 2.5A Ipp ESD DIODE DFN1006-2"
 			(at -370.84 1021.08 0)
 			(effects
 				(font
@@ -70241,6 +69559,42 @@
 		)
 		(property "Package" "DFN1006-2"
 			(at -370.84 1021.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -370.84 1021.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "PESD5V0F1BL,315"
+			(at -370.84 1021.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Nexperia"
+			(at -370.84 1021.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DFN1006-2"
+			(at -370.84 1021.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70620,7 +69974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESD DIODE"
 			(at -364.49 990.6 0)
 			(effects
 				(font
@@ -70646,7 +70000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15VC Clamp 2.5A Ipp ESD DIODE DFN1006-2"
 			(at -368.3 990.6 0)
 			(effects
 				(font
@@ -70666,6 +70020,42 @@
 		)
 		(property "Package" "DFN1006-2"
 			(at -368.3 990.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at -368.3 990.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "PESD5V0F1BL,315"
+			(at -368.3 990.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Nexperia"
+			(at -368.3 990.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DFN1006-2"
+			(at -368.3 990.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71144,46 +70534,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "G"
-			(at 775.97 810.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 775.97 810.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm"
-			(at 775.97 810.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft Inc."
-			(at 775.97 810.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c572a643-c5b9-4239-bebe-090ff58ab482")
 		)
@@ -71585,34 +70935,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 1344.93 567.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 1344.93 567.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
-			(at 1344.93 567.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 1344.93 567.69 0)
 			(effects
 				(font
@@ -74086,7 +73409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
+		(property "Package / Case" "0402"
 			(at -690.88 457.2 0)
 			(effects
 				(font
@@ -74113,7 +73436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
+		(property "LCSC_MPN" "RC0402FR-0749R9L"
 			(at -690.88 457.2 90)
 			(effects
 				(font
@@ -74122,7 +73445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
+		(property "LCSC_Manufacturer" "YAGEO"
 			(at -690.88 457.2 90)
 			(effects
 				(font
@@ -74148,7 +73471,7 @@
 	)
 	(symbol
 		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
-		(at -381 1019.81 0)
+		(at -402.59 1019.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -74157,7 +73480,7 @@
 		(dnp no)
 		(uuid "f4b43e7b-3cbf-45e9-ac23-24726da65ec9")
 		(property "Reference" "C40"
-			(at -383.3368 1018.6416 0)
+			(at -404.9268 1018.6416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74166,7 +73489,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at -383.3368 1020.953 0)
+			(at -404.9268 1020.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74175,7 +73498,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at -381 1019.81 0)
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74184,7 +73507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -381 1019.81 0)
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74192,8 +73515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -381 1019.81 0)
+		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74201,8 +73524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
-			(at -381 1019.81 0)
+		(property "Package / Case" "0402"
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74210,8 +73533,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC TYPE" ""
-			(at -381 1019.81 0)
+		(property "LCSC TYPE" "SMD"
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74219,8 +73542,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
-			(at -381 1019.81 0)
+		(property "LCSC_MPN" "CC0402KRX7R7BB104"
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74228,8 +73551,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
-			(at -381 1019.81 0)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at -402.59 1019.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
+			(at -402.59 1019.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74364,7 +73696,7 @@
 	)
 	(symbol
 		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
-		(at -375.92 989.33 0)
+		(at -401.32 989.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -74373,7 +73705,7 @@
 		(dnp no)
 		(uuid "f628d9bf-b6da-4628-aa8b-c4ae97fc4f6b")
 		(property "Reference" "C10"
-			(at -378.2568 988.1616 0)
+			(at -403.6568 988.1616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74382,7 +73714,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at -378.2568 990.473 0)
+			(at -403.6568 990.473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74391,7 +73723,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at -375.92 989.33 0)
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74400,7 +73732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -375.92 989.33 0)
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74408,8 +73740,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -375.92 989.33 0)
+		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74417,8 +73749,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" ""
-			(at -375.92 989.33 0)
+		(property "Package / Case" "0402"
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74426,8 +73758,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC TYPE" ""
-			(at -375.92 989.33 0)
+		(property "LCSC TYPE" "SMD"
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74435,8 +73767,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" ""
-			(at -375.92 989.33 0)
+		(property "LCSC_MPN" "CC0402KRX7R7BB104"
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74444,8 +73776,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Manufacturer" ""
-			(at -375.92 989.33 0)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at -401.32 989.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
+			(at -401.32 989.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75073,43 +74414,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 1375.41 692.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 1375.41 692.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 1375.41 692.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
-			(at 1375.41 692.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 1375.41 692.15 0)
 			(effects
 				(font
@@ -75296,46 +74601,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "G"
-			(at 812.8 807.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 812.8 807.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm"
-			(at 812.8 807.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft Inc."
-			(at 812.8 807.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
