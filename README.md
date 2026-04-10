@@ -13,6 +13,13 @@ A compact carrier board (60.93mm × 26.46mm) that connects a [T-DSP TAC5212 audi
 
 **[View 3D Render Gallery](https://t-dsp.github.io/t-dsp_tac5212_audio_shield_adaptor/gallery.html)** -- interactive slideshow of all board views
 
+## Assembled Hardware
+
+| | |
+|:---:|:---:|
+| ![Top view of the assembled stack](https://raw.githubusercontent.com/t-dsp/t-dsp_software/master/projects/t-dsp_tac5212_audio_shield_adaptor/docs/tac5212-audio-shield-top.jpg) | ![Side view of the assembled stack](https://raw.githubusercontent.com/t-dsp/t-dsp_software/master/projects/t-dsp_tac5212_audio_shield_adaptor/docs/tac5212-audio-shield-stack.jpg) |
+| Top — TAC5212 module on the adaptor | Side — adaptor + Teensy 4.1 + TAC5212 module |
+
 ## What It Is
 
 This is the simplest board in the T-DSP ecosystem. It is an **adaptor** — a small carrier PCB that brings together two modules:
@@ -66,23 +73,23 @@ Power comes from the Teensy 4.1's USB connector — no external supply needed.
 
 ### Firmware
 
-Use the [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html) with the TAC5212 codec driver. Design your audio graph using PJRC's [Audio System Design Tool](https://www.pjrc.com/teensy/gui/).
+Working firmware lives in the **[T-DSP Software](https://github.com/t-dsp/t-dsp_software)** repository, in the [`projects/t-dsp_tac5212_audio_shield_adaptor`](https://github.com/t-dsp/t-dsp_software/tree/master/projects/t-dsp_tac5212_audio_shield_adaptor) folder. It's a PlatformIO project that gives you:
 
-```cpp
-#include <Audio.h>
-#include <Wire.h>
+- **USB Audio class device** — the Teensy enumerates as a stereo soundcard on the host
+- **Stereo playback** — host audio plays through the TAC5212 DAC out
+- **PDM mic + line-in capture** — both onboard PDM mics and the line input are mixed into the host recording stream
+- **Live monitoring** — toggle PDM mic and/or line input through the headphone output via simple serial commands
+- **Host volume tracking** — the OS playback volume slider directly controls the TAC5212 DAC digital volume
 
-AudioInputI2S         audioIn;
-AudioOutputI2S        audioOut;
-AudioControlTAC5212   codec;
+To build and flash:
 
-void setup() {
-  AudioMemory(12);
-  codec.enable();
-  codec.inputSelect(AUDIO_INPUT_LINEIN);
-  codec.volume(0.8);
-}
+```bash
+git clone https://github.com/t-dsp/t-dsp_software.git
+cd t-dsp_software/projects/t-dsp_tac5212_audio_shield_adaptor
+python -m platformio run --target upload
 ```
+
+See the [project README](https://github.com/t-dsp/t-dsp_software/tree/master/projects/t-dsp_tac5212_audio_shield_adaptor) for the full setup walkthrough, audio routing diagram, and serial command reference. New to PlatformIO? Start with the [hello-world setup guide](https://github.com/t-dsp/t-dsp_software/tree/master/projects/hello-world).
 
 View the design files in your browser with KiCanvas: [Schematic](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_audio_shield_adaptor/blob/main/t-dsp_tac5212_audio_shield_adaptor.kicad_sch) | [PCB](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_audio_shield_adaptor/blob/main/t-dsp_tac5212_audio_shield_adaptor.kicad_pcb)
 
